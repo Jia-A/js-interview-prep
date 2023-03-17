@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+        <h1 class="head">CountDown</h1>
+        <div class="heads">
+            <span class="head-line">Hours</span>
+            <span class="head-line">Minutes</span>
+            <span class="head-line">Seconds</span>
+        </div>
+        <div class="inp-container">
+            <input type="number" oninput="this.value=this.value.slice(0, maxLength)" maxlength="2" class="time-inp-fields hour" placeholder="00"/>
+            <p class="color-area">:</p>
+            <input type="number" oninput="this.value=this.value.slice(0, maxLength)" maxlength=2 class="time-inp-fields minutes" placeholder="00"/>
+            <p class="color-area">:</p>
+            <input type="number" oninput="this.value=this.value.slice(0, maxLength)" maxlength=2 class="time-inp-fields seconds" placeholder="00"/>
+        </div>
+        <div class="btn-container">
+            <button class="event-btn start-btn">Start</button>
+            <button class="event-btn stop-btn">Stop</button>
+            <button class="event-btn reset-btn">Reset</button>
+        </div>
+    </div>
+<script src="index.js"></script>   
+</body>
+</html>

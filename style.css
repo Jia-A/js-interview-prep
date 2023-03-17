@@ -1,0 +1,61 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80vh;
+}
+
+.heads{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.head-line{
+    width: 100px;
+    font-size: 25px;
+    align-self: center;
+}
+.inp-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.time-inp-fields{
+    width: 100px;
+    outline: none;
+    font-size: xx-large;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.event-btn{
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.start-btn{
+    background-color: green;
+}
+
+.stop-btn{
+    background-color: yellow;
+    display: none;
+}
+
+.reset-btn{
+    background-color: red;
+}
